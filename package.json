@@ -1,6 +1,7 @@
 {
   "name": "chatty",
-  "version": "1.0.0",
+  "homepage": "https://toughee.github.io/chatty/",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
@@ -41,6 +42,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "License": "MIT"
   }
 }
