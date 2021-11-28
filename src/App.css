@@ -1,37 +1,78 @@
 .App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    text-align: center;
 }
 
 li {
-  font-size: 2rem;
-  color: white;
-  display: inline;
-  padding: 0.5rem 2rem 0rem 2rem;
+    font-size: 2rem;
+    color: white;
+    display: inline;
+    padding: 0.5rem 2rem 0rem 2rem;
 }
 
 ul {
-  background-color: rgb(31, 42, 102);
-  list-style-type: none;
-  margin: 0;
-  padding: 1rem
-  
+    background-color: rgb(31, 42, 102);
+    list-style-type: none;
+    margin: 0rem;
+    padding: 1rem 2rem 5rem 2rem;
 }
 
 .menuItems {
-  float: right;
+    float: left;
 }
 
-.menuLogo{
-  float: left;
+.menuLogo {
+    float: left;
+    width: 4rem;
+    height: 4rem;
+    margin: 0rem 1rem 0rem 0rem;
+}
+
+.AboutPageStyle,
+.ProfileTabStyle {
+    padding: 0rem 20rem 0rem 20rem;
+}
+
+.PageIcon {
+    font-size: 7rem;
+}
+
+.ProfileTabStyle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+
+.myMsg {
+    float: right;
+    width: 10rem;
+    height: 2rem;
+    padding: 2.5rem;
+    margin-bottom: 10rem;
+    background-color: rgba(9, 9, 204, 0.719);
+    z-index: 2;
+}
+
+.extrlMsg {
+    float: left;
+    width: 10rem;
+    height: 2rem;
+    padding: 2.5rem;
+    background-color: rgb(223, 223, 224);
+    z-index: 1;
+}
+
+button {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.chatBar {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+
+input {
+    width: 90rem;
+    text-align: right;
+    padding: 0.5rem;
 }
