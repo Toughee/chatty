@@ -1,59 +1,66 @@
-import AboutPage from './components/AboutPage';
-import Chatroom from './components/Chatroom';
-import MyProfile from './components/MyProfile';
-import Support from './components/Support';
-
+import { FaLifeRing, FaQuestion, FaUserAlt, FaRocketchat } from 'react-icons/fa'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 
+import AboutPage from './components/AboutPage'
+import Chatroom from './components/Chatroom'
+import MyProfile from './components/MyProfile'
+import Support from './components/Support'
 
-import './App.css';
+import chatty_logo from './img/chatty_logo.png'
+
+import './App.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header>
-
-
-        <BrowserRouter>
-        <ul>
-        <li >chatty</li>
-                       
-
-                        
+    return (
+        <div className="App">
+            <header>
+                <BrowserRouter>
+                    <ul>
+                        <li className="menuItems">
+                            <img
+                                className="menuLogo"
+                                src={chatty_logo}
+                                alt="logo"
+                            />
+                            chatty
+                        </li>
 
                         <Link to="/AboutPage">
-                        <li className="menuItems">About</li>
+                            <li className="menuItems">
+                                <FaQuestion /> About
+                            </li>
                         </Link>
 
                         <Link to="/Support">
-                        <li className="menuItems">Support</li>
+                            <li className="menuItems">
+                                <FaLifeRing /> Support
+                            </li>
                         </Link>
 
                         <Link to="/MyProfile">
-                        <li className="menuItems">Profile</li>
+                            <li className="menuItems">
+                                <FaUserAlt /> Profile
+                            </li>
                         </Link>
 
                         <Link to="/Chatroom">
-                        <li className="menuItems">Chat room</li>
+                            <li className="menuItems">
+                                <FaRocketchat /> Chat room
+                            </li>
                         </Link>
+                    </ul>
 
-                        
-
-
-        </ul>
-
-                        <br />
-                        <Routes>
-                          <Route path="/Chatroom" element={<Chatroom />} />
-                          <Route path="/MyProfile" element={<MyProfile />} />
-                          <Route path="/AboutPage" element={<AboutPage />} />
-                          <Route path="/Support" element={<Support />} />
-                        </Routes>
-            </BrowserRouter>
-
-      </header>
-    </div>
-  );
+                    <br />
+                    <Routes>
+                        <Route path="/Chatroom" element={<Chatroom />} />
+                        <Route path="/MyProfile" element={<MyProfile />} />
+                        <Route path="/AboutPage" element={<AboutPage />} />
+                        <Route path="/Support" element={<Support />} />
+                    </Routes>
+                </BrowserRouter>
+            </header>
+        </div>
+    )
 }
 
-export default App;
+export default App
