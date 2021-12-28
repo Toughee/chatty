@@ -1,6 +1,7 @@
 import { FaLifeRing, FaQuestion, FaUserAlt, FaRocketchat } from 'react-icons/fa'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 
+import HomePage from './components/HomePage'
 import AboutPage from './components/AboutPage'
 import Chatroom from './components/Chatroom'
 import MyProfile from './components/MyProfile'
@@ -16,14 +17,16 @@ function App() {
             <header>
                 <BrowserRouter>
                     <ul>
-                        <li className="menuItems">
-                            <img
-                                className="menuLogo"
-                                src={chatty_logo}
-                                alt="logo"
-                            />
-                            chatty
-                        </li>
+                        <Link to="/HomePage">
+                            <li className="menuItems">
+                                <img
+                                    className="menuLogo"
+                                    src={chatty_logo}
+                                    alt="logo"
+                                />
+                                chatty
+                            </li>
+                        </Link>
 
                         <Link to="/AboutPage">
                             <li className="menuItems">
@@ -52,10 +55,12 @@ function App() {
 
                     <br />
                     <Routes>
-                        <Route path="/Chatroom" element={<Chatroom />} />
-                        <Route path="/MyProfile" element={<MyProfile />} />
+                        <Route path="/HomePage" element={<HomePage />} />
                         <Route path="/AboutPage" element={<AboutPage />} />
                         <Route path="/Support" element={<Support />} />
+
+                        <Route path="/MyProfile" element={<MyProfile />} />
+                        <Route path="/Chatroom" element={<Chatroom />} />
                     </Routes>
                 </BrowserRouter>
             </header>
