@@ -18,11 +18,9 @@ Proof of concept: I wanted to create a small example of a chat app utilizing Web
 
 ## Testing tools used for app:
 
--   React Testing library
--   Jest
--   Cypress
--   TravisCI
--   CircleCI
+-   React Testing library and Jest for testing components
+-   TravisCI and CircleCI for CI/CD development
+-   Prettier for keeping all code formatted and organized
 
 ## Project resources:
 

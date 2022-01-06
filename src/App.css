@@ -4,13 +4,9 @@
 
 li {
     font-size: 2rem;
-    color: white;
+    color: #ffffff;
     display: inline;
     padding: 0.5rem 2rem 0rem 2rem;
-}
-
-p {
-    font-size: 2rem;
 }
 
 ul {
@@ -18,6 +14,10 @@ ul {
     list-style-type: none;
     margin: 0rem;
     padding: 1rem 2rem 5rem 2rem;
+}
+
+p {
+    font-size: 2rem;
 }
 
 .menuItems {
@@ -45,7 +45,7 @@ ul {
         'Lucida Sans', Arial, sans-serif;
 }
 
-.myMsg {
+/* .myMsg {
     float: right;
     width: 10rem;
     height: 2rem;
@@ -53,16 +53,16 @@ ul {
     margin-bottom: 10rem;
     background-color: #0909ccb7;
     z-index: 2;
-}
+} */
 
-.extrlMsg {
+/* .extrlMsg {
     float: left;
     width: 10rem;
     height: 2rem;
     padding: 2.5rem;
     background-color: rgb(223, 223, 224);
     z-index: 1;
-}
+} */
 
 button {
     margin: 1rem;
@@ -76,7 +76,39 @@ button {
 }
 
 input {
-    width: 90rem;
-    text-align: right;
+    width: 100rem;
+
+    text-align: left;
     padding: 0.5rem;
+}
+
+.NewMsg {
+    font-size: 2.5rem;
+    float: right;
+    display: block;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #b3d6f5;
+    border-radius: 25%;
+}
+
+p {
+    margin: -4rem;
+    padding: 8rem;
+    text-align: right;
+}
+.DateStyle {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.IdentifierStyle {
+    font-size: 1.5rem;
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+}
+
+.DateStyle,
+.IdentifierStyle {
+    text-align: right;
 }
