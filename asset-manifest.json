@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/chatty/static/css/main.c7a4b496.chunk.css",
-    "main.js": "/chatty/static/js/main.61524534.chunk.js",
-    "main.js.map": "/chatty/static/js/main.61524534.chunk.js.map",
-    "runtime-main.js": "/chatty/static/js/runtime-main.6959bf94.js",
-    "runtime-main.js.map": "/chatty/static/js/runtime-main.6959bf94.js.map",
-    "static/js/2.19436e04.chunk.js": "/chatty/static/js/2.19436e04.chunk.js",
-    "static/js/2.19436e04.chunk.js.map": "/chatty/static/js/2.19436e04.chunk.js.map",
-    "static/js/3.c968bb83.chunk.js": "/chatty/static/js/3.c968bb83.chunk.js",
-    "static/js/3.c968bb83.chunk.js.map": "/chatty/static/js/3.c968bb83.chunk.js.map",
+    "main.css": "/chatty/static/css/main.26b5181c.css",
+    "main.js": "/chatty/static/js/main.32e5e111.js",
+    "static/js/787.625290e2.chunk.js": "/chatty/static/js/787.625290e2.chunk.js",
     "index.html": "/chatty/index.html",
-    "static/css/main.c7a4b496.chunk.css.map": "/chatty/static/css/main.c7a4b496.chunk.css.map",
-    "static/js/2.19436e04.chunk.js.LICENSE.txt": "/chatty/static/js/2.19436e04.chunk.js.LICENSE.txt"
+    "main.26b5181c.css.map": "/chatty/static/css/main.26b5181c.css.map",
+    "main.32e5e111.js.map": "/chatty/static/js/main.32e5e111.js.map",
+    "787.625290e2.chunk.js.map": "/chatty/static/js/787.625290e2.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6959bf94.js",
-    "static/js/2.19436e04.chunk.js",
-    "static/css/main.c7a4b496.chunk.css",
-    "static/js/main.61524534.chunk.js"
+    "static/css/main.26b5181c.css",
+    "static/js/main.32e5e111.js"
   ]
 }
