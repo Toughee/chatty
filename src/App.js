@@ -7,8 +7,6 @@ import Chatroom from './components/Chatroom'
 import MyProfile from './components/MyProfile'
 import Support from './components/Support'
 
-import chatty_logo from './img/chatty_logo.png'
-
 import './App.css'
 
 function App() {
@@ -18,14 +16,7 @@ function App() {
                 <BrowserRouter>
                     <ul>
                         <Link to="/HomePage">
-                            <li className="menuItems">
-                                <img
-                                    className="menuLogo"
-                                    src={chatty_logo}
-                                    alt="logo"
-                                />
-                                chatty
-                            </li>
+                            <li className="menuItems">Home</li>
                         </Link>
 
                         <Link to="/AboutPage">
@@ -45,10 +36,9 @@ function App() {
                                 <FaUserAlt /> Profile
                             </li>
                         </Link>
-
                         <Link to="/Chatroom">
                             <li className="menuItems">
-                                <FaRocketchat /> Chat room
+                                <FaUserAlt /> Chat Room
                             </li>
                         </Link>
                     </ul>
@@ -58,7 +48,6 @@ function App() {
                         <Route path="/HomePage" element={<HomePage />} />
                         <Route path="/AboutPage" element={<AboutPage />} />
                         <Route path="/Support" element={<Support />} />
-
                         <Route path="/MyProfile" element={<MyProfile />} />
                         <Route path="/Chatroom" element={<Chatroom />} />
                     </Routes>
