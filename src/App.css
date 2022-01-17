@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300;700&display=swap');
+
+
+/*
+--------------------------------------------
+Menu Items
+--------------------------------------------
+*/
 .App {
     text-align: center;
 }
@@ -6,6 +14,7 @@ li {
     font-size: 2rem;
     color: #ffffff;
     display: inline;
+    font-family: 'Cairo', sans-serif;
     padding: 0.5rem 2rem 0rem 2rem;
 }
 
@@ -31,42 +40,14 @@ p {
     margin: 0rem 1rem 0rem 0rem;
 }
 
-.AboutPageStyle,
-.ProfileTabStyle {
-    padding: 0rem 20rem 0rem 20rem;
-}
-
 .PageIcon {
     font-size: 7rem;
 }
 
-.ProfileTabStyle {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-        'Lucida Sans', Arial, sans-serif;
-}
-
-/* .myMsg {
-    float: right;
-    width: 10rem;
-    height: 2rem;
-    padding: 2.5rem;
-    margin-bottom: 10rem;
-    background-color: #0909ccb7;
-    z-index: 2;
-} */
-
-/* .extrlMsg {
-    float: left;
-    width: 10rem;
-    height: 2rem;
-    padding: 2.5rem;
-    background-color: rgb(223, 223, 224);
-    z-index: 1;
-} */
-
 button {
     margin: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
+    font-size: 2rem;
 }
 
 .chatBar {
@@ -75,40 +56,36 @@ button {
     position: fixed;
 }
 
+.MsgStyle {
+    top: 0;
+    text-align: right;
+}
+
 input {
     width: 100rem;
-
-    text-align: left;
     padding: 0.5rem;
-}
-
-.NewMsg {
     font-size: 2.5rem;
-    float: right;
-    display: block;
-    padding: 1rem;
-    margin: 2rem;
-    background-color: #b3d6f5;
-    border-radius: 25%;
+    font-family: 'Quicksand', sans-serif;
 }
 
-p {
-    margin: -4rem;
-    padding: 8rem;
+.MessageStyle {
+    font-size: 2rem;
+}
+
+.YourMsgStyle {
     text-align: right;
-}
-.DateStyle {
-    padding: 1rem;
-    font-size: 1rem;
+    padding: 0.1rem 1rem 2rem 0rem;
+    margin-bottom: 0.1rem;
+    background-color: #016b9ca1;
+    color: #ffffff;
+    align-items: right;
+    font-family: 'Open Sans Condensed', sans-serif;
+    justify-content: space-between;
 }
 
-.IdentifierStyle {
+.Identifier,
+.TimeStyle {
+    padding: 1rem;
     font-size: 1.5rem;
-    color: rgb(56, 56, 56);
     font-weight: bold;
-}
-
-.DateStyle,
-.IdentifierStyle {
-    text-align: right;
 }
