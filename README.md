@@ -2,13 +2,13 @@
 
 # chatty
 
-Real time chat app created in React. Currently a W.I.P
+Real time chat app created in React.
 
 ![Splash page](./public/img/chatty_splash.png)
 
 ## Why this app as created:
 
-Proof of concept: I wanted to create a small example of a chat app utilizing Websockets and minimal U.I elements
+Proof of concept: I wanted to create a small example of a chat app utilizing Socket.io Websockets and minimal U.I elements
 
 ## How to use:
 
@@ -31,9 +31,12 @@ Proof of concept: I wanted to create a small example of a chat app utilizing Web
 ### Completed app tasks:
 
 -   [x] Include CircleCI and Travis-CI inside project
--   [x] Better U/I scheme for app
+-   [x] Create a better U.I. design for app
 
 ### Future app goals:
 
 -   [ ] Develop tests for each React component
--   [ ] Working chat for local users
+-   [ ] Working chat for localhost users
+-   [ ] Add mockup messages into app
+-   [ ] Add socket.io implementation (or a similar tool) into project to create a working chat with localhost users
+-   [ ] Add more chat room options into project
