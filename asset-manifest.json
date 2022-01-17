@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/chatty/static/css/main.26b5181c.css",
-    "main.js": "/chatty/static/js/main.32e5e111.js",
-    "static/js/787.625290e2.chunk.js": "/chatty/static/js/787.625290e2.chunk.js",
+    "main.css": "/chatty/static/css/main.2f82f844.css",
+    "main.js": "/chatty/static/js/main.894c849f.js",
+    "static/js/988.f7e0725c.chunk.js": "/chatty/static/js/988.f7e0725c.chunk.js",
     "index.html": "/chatty/index.html",
-    "main.26b5181c.css.map": "/chatty/static/css/main.26b5181c.css.map",
-    "main.32e5e111.js.map": "/chatty/static/js/main.32e5e111.js.map",
-    "787.625290e2.chunk.js.map": "/chatty/static/js/787.625290e2.chunk.js.map"
+    "main.2f82f844.css.map": "/chatty/static/css/main.2f82f844.css.map",
+    "main.894c849f.js.map": "/chatty/static/js/main.894c849f.js.map",
+    "988.f7e0725c.chunk.js.map": "/chatty/static/js/988.f7e0725c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26b5181c.css",
-    "static/js/main.32e5e111.js"
+    "static/css/main.2f82f844.css",
+    "static/js/main.894c849f.js"
   ]
 }
