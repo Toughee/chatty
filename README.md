@@ -32,11 +32,10 @@ Proof of concept: I wanted to create a small example of a chat app utilizing Soc
 
 -   [x] Include CircleCI and Travis-CI inside project
 -   [x] Create a better U.I. design for app
+-   [x] Develop tests for each React component
 
 ### Future app goals:
 
--   [ ] Develop tests for each React component
--   [ ] Working chat for localhost users
 -   [ ] Add mockup messages into app
 -   [ ] Add socket.io implementation (or a similar tool) into project to create a working chat with localhost users
 -   [ ] Add more chat room options into project

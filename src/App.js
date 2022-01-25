@@ -17,11 +17,11 @@ function App() {
                 <BrowserRouter>
                     <ul>
                         <Link to="/HomePage">
-                        <img
-                                    className="menuLogo"
-                                    src={chatty_logo}
-                                    alt="logo"
-                                />
+                            <img
+                                className="menuLogo"
+                                src={chatty_logo}
+                                alt="logo"
+                            />
                             <li className="menuItems">Home</li>
                         </Link>
 
