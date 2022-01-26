@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/chatty/static/css/main.2f82f844.css",
-    "main.js": "/chatty/static/js/main.64bbe0c7.js",
+    "main.js": "/chatty/static/js/main.b3538104.js",
     "static/js/787.81d3f3ae.chunk.js": "/chatty/static/js/787.81d3f3ae.chunk.js",
     "static/media/chatty_logo.png": "/chatty/static/media/chatty_logo.cff65d2f5f5f0c7aac11.png",
     "index.html": "/chatty/index.html",
     "main.2f82f844.css.map": "/chatty/static/css/main.2f82f844.css.map",
-    "main.64bbe0c7.js.map": "/chatty/static/js/main.64bbe0c7.js.map",
+    "main.b3538104.js.map": "/chatty/static/js/main.b3538104.js.map",
     "787.81d3f3ae.chunk.js.map": "/chatty/static/js/787.81d3f3ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f82f844.css",
-    "static/js/main.64bbe0c7.js"
+    "static/js/main.b3538104.js"
   ]
 }
