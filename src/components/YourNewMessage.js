@@ -1,4 +1,6 @@
 import React from 'react'
+import moment from 'moment';
+
 
 function YourNewMessage({ msg }) {
     return (
@@ -6,7 +8,7 @@ function YourNewMessage({ msg }) {
             <span className="col">
                 <p className="MessageStyle">{msg.text}</p>
                 <span className="Identifier">You </span>
-                <span className="TimeStyle">1 min ago</span>
+                <span className="TimeStyle">Sent: {moment().format('MMM Do, YYYY')}</span>
             </span>
         </div>
     )
